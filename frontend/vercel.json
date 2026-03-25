@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/api/v1/(.*)",
+      "dest": "https://tripinminutes-api.railway.app/api/v1/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
