@@ -144,8 +144,4 @@ cd frontend && pnpm dev
 
 ---
 
-## Demo Credentials (after seeding)
-```
-Admin:    admin@tripinminutes.com / Admin@123
-User:     demo@tripinminutes.com  / Demo@123
-```
+
